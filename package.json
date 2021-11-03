@@ -1,0 +1,24 @@
+{
+  "name": "247-final",
+  "version": "1.0.0",
+  "description": "seating chart",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanGabe00/247-final.git"
+  },
+  "author": "Bryan Gabe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BryanGabe00/247-final/issues"
+  },
+  "homepage": "https://github.com/BryanGabe00/247-final#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "mongodb": "^4.1.3"
+  }
+}
