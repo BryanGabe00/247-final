@@ -6,8 +6,7 @@
   "license": "MIT",
   "author": "Microsoft",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app"
+    "start": "node app.js"
   },
   "dependencies": {
     "connect-mongo": "^4.6.0",
