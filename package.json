@@ -1,10 +1,10 @@
 {
-  "name": "app-service-hello-world",
-  "description": "Simple Hello World Node.js sample for Azure App Service",
+  "name": "seat-selector",
+  "description": "Simple way to keep track of attendence.",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",
-  "author": "Microsoft",
+  "author": "Bryan Gabe",
   "scripts": {
     "start": "node app.js"
   },
@@ -23,7 +23,7 @@
     "passport": "^0.5.0",
     "passport-google-oauth20": "^2.0.0"
   },
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "lib": "lib"
   },
