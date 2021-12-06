@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/seating_chart.css">
+
+<h3 style="text-align: center;">Welcome {{name}}</h3>
+
+<form method="POST" action="/submit-form">
+  <label for="table-number">Enter Table Number: </label>
+  <input type="text" name="table-number" />
+
+  <label for="table-number">Enter Seat Number: </label>
+  <input type="text" name="seat-number" />
+  <input type="submit" value="Submit"/>
+</form>

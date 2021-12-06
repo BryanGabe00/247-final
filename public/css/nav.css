@@ -1,0 +1,37 @@
+/*
+-------------------------- NAV BAR ------------------------
+*/
+
+.ul-div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(59, 56, 57);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 20px rgb(0,0,0);
+    
+}
+
+.li-nav {
+    float: left;
+    font-size: 20px;
+}
+
+.li-a-nav {
+    display: block;
+    color: rgb(93, 226, 60);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration:.4s;    
+}
+
+li a:hover {
+    background-color: rgb(40, 100, 25);
+    color: rgb(59, 56, 57);
+    transform:scale(1.1)
+}
