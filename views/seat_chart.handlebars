@@ -4,10 +4,26 @@
 <h3 style="text-align: center;">Welcome {{name}}</h3>
 
 <form method="POST" action="/submit-form">
-  <label for="table-number">Enter Table Number: </label>
-  <input type="text" name="table-number" />
+  <label for="tableNumber">Enter Table Number: </label>
+  <input type="text" name="tableNumber" />
 
-  <label for="table-number">Enter Seat Number: </label>
-  <input type="text" name="seat-number" />
+  <label for="tseatNumber">Enter Seat Number: </label>
+  <input type="text" name="seatNumber" />
   <input type="submit" value="Submit"/>
 </form>
+
+<div>
+          <table>
+            <thead>
+                <tr>
+                    <th>Attendance:</th>
+                </tr>
+            </thead>
+
+            {{#each attendance}}
+                <tr>
+                    <td>{{this}}</td>
+                </tr>
+            {{/each}}
+        </table>
+  </div>

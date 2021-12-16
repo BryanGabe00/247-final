@@ -9,10 +9,11 @@ const UserSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    attendance: {
-        type: [Date],
-        required: false
-    }
+    attendance: [{
+        day: String,
+        table_number: Number,
+        seat_number: Number
+    }]
 })
 
 module.exports = mongoose.model('User', UserSchema)

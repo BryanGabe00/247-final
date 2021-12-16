@@ -19,6 +19,12 @@ const app = express()
 app.engine('handlebars', expressHandlebars({
     defaultLayout: 'main',
 }))
+
+//needed to read the information from POST 
+app.use(express.urlencoded({extended: true}));
+app.use(express.json());
+
+
 app.use(express.static(__dirname + '/public'))
 app.set('view engine', 'handlebars')
 
